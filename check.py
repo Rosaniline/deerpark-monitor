@@ -10,7 +10,7 @@ except ImportError:
 
 
 API_URL = "https://api.deerpark.fredbooking.com/api/quote"
-DATES = ["2026-12-31", "2026-01-01", "2026-01-02", "2026-01-03", "2026-01-04"]
+DATES = ["2026-12-31", "2026-01-01", "2026-01-02", "2026-01-03"]
 TIME_HHMM = "09:50"
 
 
