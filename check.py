@@ -71,8 +71,9 @@ def main():
 
 
     if availabilities:
+        joined = "\n".join(availabilities)
         send_telegram(
-            f"✅ Deerpark available!\nDate: {"\n".join(availabilities)}"
+            f"✅ Deerpark available!\nDate: {joined}"
         )
 
 
